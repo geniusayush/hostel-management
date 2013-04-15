@@ -1,0 +1,33 @@
+INSERT INTO  `sen`.`residents` (
+`id` ,
+`name` ,
+`room` ,
+`floor` ,
+`wing` ,
+`contact_details` ,
+`guardian_contact_details` ,
+`batch` ,
+`program` ,
+`login_id` ,
+`email`
+)
+VALUES (
+'201001199',  'nikunj',  '101',  '0',  'h',  '56565656',  '56565656',  '2010',  'btech',  'admin1',  'nikamipara@gmial.com'
+);
+
+INSERT INTO  `sen`.`residents` (
+`id` ,
+`name` ,
+`room` ,
+`floor` ,
+`wing` ,
+`contact_details` ,
+`guardian_contact_details` ,
+`batch` ,
+`program` ,
+`login_id` ,
+`email`
+)
+VALUES (
+'201001200',  'parth',  '153',  '0',  'G',  '56565656',  '56565656',  '2012',  'btech',  '201001200',  'nikamipara@gmial.com'
+);

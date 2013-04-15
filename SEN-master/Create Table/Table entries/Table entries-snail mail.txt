@@ -1,0 +1,2 @@
+INSERT INTO `snail_mail`(`date`, `time`, `id`, `sentby`) 
+VALUES (2013-02-31,12:25:00, "201001199","rameshbhai spped post ");

@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `login` (
+`login_id` char(30) NOT NULL,
+`password` char(30) NOT NULL,
+`priority` int(3) DEFAULT NULL,
+PRIMARY KEY (`login_id`)
+)

@@ -1,0 +1,8 @@
+create table admin(
+id char(30) primary key,
+name char(30) not null,
+contact integer(20),
+login_id char(30),
+FOREIGN KEY (login_id) REFERENCES login(login_id)
+
+);

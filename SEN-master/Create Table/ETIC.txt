@@ -1,0 +1,6 @@
+create table ETIC(
+id char(30) primary key,
+newpaper char(50) not null,
+paid char(1) not null,
+Payment_recv_from char(30)
+);

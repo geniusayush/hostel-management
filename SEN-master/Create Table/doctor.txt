@@ -1,0 +1,7 @@
+create table doctor(
+doctor_id char(30) primary key,
+name char(30) not null,
+present char(1) not null,
+login_id char(30),
+FOREIGN KEY (login_id) REFERENCES login(login_id)
+);

@@ -1,0 +1,25 @@
+
+CREATE TABLE IF NOT EXISTS `complaints` (
+
+`complaints_id` int(15) NOT NULL AUTO_INCREMENT,
+  
+`posting_date` date NOT NULL,
+ 
+ `posting_time` time NOT NULL,
+
+`serviced_date` date DEFAULT NULL,
+ 
+`serviced_time` time DEFAULT NULL,
+  
+`serviced` tinyint(1) NOT NULL DEFAULT '0',
+ 
+ `id` char(30),
+
+ `Type` varchar(10) NOT NULL, 
+ `description` varchar(300) NOT NULL, 
+ 
+ PRIMARY KEY (`complaints_id`)
+,
+FOREIGN KEY (id) REFERENCES residents(id)
+)
+--************************ type 0 means not resolved and visa v******************

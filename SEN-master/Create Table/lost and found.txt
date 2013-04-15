@@ -1,0 +1,22 @@
+
+CREATE TABLE IF NOT EXISTS `lost_found` (
+
+`lost_found_id` int(11) NOT NULL AUTO_INCREMENT,
+  
+`date` date NOT NULL,
+ 
+ `time` time NOT NULL,
+  
+`type` tinyint(1) NOT NULL DEFAULT '0',
+ 
+ `id` char(30),
+
+ `Title` varchar(10) NOT NULL, 
+ `place` varchar(10) NOT NULL, 
+`object_details` varchar(100),
+ 
+ PRIMARY KEY (`lost_found_id`)
+,
+FOREIGN KEY (id) REFERENCES residents(id)
+)
+************************ type 0 means lost and 1 means found******************

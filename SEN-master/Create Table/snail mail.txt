@@ -1,0 +1,19 @@
+
+CREATE TABLE IF NOT EXISTS `snail_mail` (
+
+`snail_mail_id` int(11) NOT NULL AUTO_INCREMENT,
+  
+`date` date NOT NULL,
+ 
+ `time` time NOT NULL,
+  
+`received_status` tinyint(1) NOT NULL DEFAULT '0',
+ 
+ `Id` char(30) NOT NULL,
+  
+`sentby` varchar(100) NOT NULL,
+ 
+ PRIMARY KEY (`snail_mail_id`),
+
+FOREIGN KEY (Id) REFERENCES residents(login_id) 
+)

@@ -1,0 +1,12 @@
+
+create table hmc(
+id char(30),
+wing char(1) ,
+floor integer(3),
+login_id char(30),
+PRIMARY KEY (wing,floor),
+FOREIGN KEY (login_id) REFERENCES login(login_id),
+FOREIGN KEY (id) REFERENCES residents(id)
+
+
+);

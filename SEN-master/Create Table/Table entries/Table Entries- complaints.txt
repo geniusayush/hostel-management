@@ -1,0 +1,1 @@
+INSERT INTO `complaints`(`complaints_id`, `posting_date`, `posting_time`,`id`, `Type`, `description`) VALUES (1,NOW(),NOW(),'201001200','General','fan of our room is not working please do something...')

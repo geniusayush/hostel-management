@@ -1,0 +1,2 @@
+INSERT INTO `lost_found`( `date`, `time`,`id`, `Title`,`place`, `object_details`) 
+VALUES (NOW(),NOW(),201001199,'id card',`lt1`,'i lost my id card near rc please return it if anyone finds it');
